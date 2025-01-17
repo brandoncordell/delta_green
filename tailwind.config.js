@@ -9,7 +9,18 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: [
+          '"Inter", sans-serif',
+          {
+            fontFeatureSettings: '"liga" 1, "calt" 1',
+            fontVariationSettings: '"slnt" 0'
+          }
+        ],
+        serif: ['Courier Prime', ...defaultTheme.fontFamily.serif]
+      }
+    },
   },
 
   corePlugins: {
