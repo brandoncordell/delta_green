@@ -17,6 +17,7 @@ gem 'solid_cable'
 gem 'solid_cache'
 gem 'solid_queue'
 gem 'thruster', require: false
+gem 'vite_rails'
 
 group :development do
   gem 'web-console'

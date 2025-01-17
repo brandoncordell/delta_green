@@ -1,1 +1,2 @@
 web: bin/rails s -p 5000
+vite: bin/vite dev
