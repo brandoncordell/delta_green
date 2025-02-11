@@ -8,7 +8,7 @@ gem 'rails', '~> 8.0.1'
 
 gem 'bootsnap', require: false
 gem 'jbuilder'
-gem 'image_processing', '~> 1.2'
+gem 'image_processing', '~> 1.14'
 gem 'kamal', require: false
 gem 'pg', '~> 1.1'
 gem 'propshaft'
