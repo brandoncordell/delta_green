@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 ruby "~> #{File.readlines('.tool-versions', mode: 'rb')[1].split[1]}"
 
-gem 'rails', '~> 8.0.1'
+gem 'rails', '~> 8.0.2'
 
 gem 'bootsnap', require: false
 gem 'jbuilder'
